@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "259462380504",
+    "project_id": "ktu-study-2baf7",
+    "storage_bucket": "ktu-study-2baf7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259462380504:android:9a061fd2d88808823410ad",
+        "android_client_info": {
+          "package_name": "com.example.ktu_study"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259462380504-86ft5gmn8egnlq9q1ojbojn92d25riqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ktu_study",
+            "certificate_hash": "ccb19afcd8a58bccd1a9ae852da72d51c9e63874"
+          }
+        },
+        {
+          "client_id": "259462380504-7lcbnrik9ongoc5klg04hc703t119s1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ZN_rbp0hsUwnpbGhwSwiru6FFquSEPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259462380504-7lcbnrik9ongoc5klg04hc703t119s1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
