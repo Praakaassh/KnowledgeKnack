@@ -74,6 +74,7 @@ flutter:
     - assets/images/logo.jpg
     - assets/images/splash_placeholder.png
     - assets/videos/splash_animation.mp4
+    - .env
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
