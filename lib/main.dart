@@ -9,6 +9,7 @@ import 'package:jammui/splashscreen.dart';
 import 'package:jammui/theme.dart';
 import 'package:provider/provider.dart';
 import 'chatbotwindow.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 // Import your test pages
 // import 'path/to/mocktest_page.dart';
@@ -16,6 +17,7 @@ import 'chatbotwindow.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   await Firebase.initializeApp().catchError((error) {
     print('Firebase initialization error: $error');
   });

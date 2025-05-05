@@ -53,6 +53,7 @@ dependencies:
   image_picker: ^1.1.2
   video_player: ^2.9.3
   fullscreen_window: ^1.1.0
+  flutter_dotenv: ^5.2.1
 
 flutter_launcher_icons:
   android: "launcher_icon"

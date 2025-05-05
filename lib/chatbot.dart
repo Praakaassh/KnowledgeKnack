@@ -1,9 +1,10 @@
 import 'dart:convert';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 import 'package:firebase_auth/firebase_auth.dart'; // To get user info
 
 class TogetherAiService {
-  static const String apiKey = '9809da8106c5bf9793e82852994c72e8e4948acee4df25e613a2840ac23a1186';
+  static final String apiKey = dotenv.env['TOGETHER_AI_API_KEY'] ?? '';
   static const String baseUrl = 'https://api.together.xyz/v1';
 
   Future<String> getChatResponse(String prompt, List<Map<String, dynamic>> chatHistory) async {
